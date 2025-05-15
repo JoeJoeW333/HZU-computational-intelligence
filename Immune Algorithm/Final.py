@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import time
 from collections import defaultdict
 
+
 # 数据生成函数
 def generate_data(num_customers=20, vehicle_capacity=30, seed=None):
     if seed is not None:
